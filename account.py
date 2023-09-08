@@ -20,7 +20,7 @@ class Account:
             print(f"\nAmount: {amount} deposited successfully\nNew Balance: {self.balance}")
             print("______________________")
         else:
-            print("Invalid amount or insufficient balance. Withdrawal denied.")
+            print("Invalid amount or insufficient balance. Deposit denied.")
 
 
     def withdraw(self, amount):
