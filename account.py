@@ -19,6 +19,8 @@ class Account:
             self.transactions.append(f"\nTransaction ID: {transaction_id}, Deposited ${amount}")
             print(f"\nAmount: {amount} deposited successfully\nNew Balance: {self.balance}")
             print("______________________")
+        else:
+            print("Invalid amount or insufficient balance. Withdrawal denied.")
 
 
     def withdraw(self, amount):
